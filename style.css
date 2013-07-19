@@ -1,0 +1,115 @@
+/*--style.css----*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: none repeat #f0f0f0;
+
+}
+a {text-decoration:none;
+	color: #a1a1a1;
+} 
+
+h1,h2,h3,p{
+	font-family:Arial,Helvetica,sans-serif;
+	color: #333;
+}
+
+h2{
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+p{
+	font-size: 14px;
+	line-height: 16px;
+	color: #989898;
+}
+.more {
+  font-weight: bold;
+}
+.author{
+	font-size: 11px;
+	line-height: 20px;
+}
+
+.author a:hover{
+	text-decoration: underline;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+
+/*--Navigation--*/
+#nav_header{
+	position: fixed;
+	margin: auto;
+	height: 50px;
+	top: 0px;
+	width: 100%;
+	background: #7f7f7f;
+	z-index: 100;
+}
+
+/*--Content--*/
+
+#container{
+	position: relative;
+	margin: 75px auto 25px auto;
+	width: 840px;
+	height: 980px;
+	background: #FFFFFF;
+  	border:1px solid #CCCCCC;
+  	border-radius: 5px; 
+	-moz-box-shadow: 0 0 5px 1px #e8e8e8;
+	-webkit-box-shadow: 0 0 5px 1px #e8e8e8;
+	box-shadow: 0 0 5px 1px #e8e8e8;
+	
+}
+#page_header{
+	padding: 20px 0 0 20px;
+}
+
+.message{
+	position: relative;
+	border-top: 1px solid #e5e8f0;
+	margin: 10px 0;
+	clear:both;
+}
+
+.user_photo {
+	position: relative;
+	float: left;
+	margin: 20px 15px 0 20px;
+}
+
+.user_comments {
+	position: relative;
+	width: 730px;
+	float: left;
+	margin: 20px 0 0 0;		
+}	
+
+
+.input_text{
+	padding: 10px;
+	background-color: #F4F4F4;
+	margin: 15px 0 20px 0;	
+}
+
+input[type=text], textarea, input{
+	background-color: #ffffff;
+	border: 1px solid #888;
+	padding: 5px;
+	border-radius: 5px;
+	width: 703px;
+	font-size: 14px;	
+}
+
+
+#page_section {
+	position: relative;
+}
